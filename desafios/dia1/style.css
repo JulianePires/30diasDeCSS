@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*DISPLAY FLEXBOX - ELEMENTOS CENTRALIZADOS*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: indigo;
+}
+
+.container {
+    /*posicionamento relativo à sua posição normal*/
+    position: relative;
+    width: 1100px;
+    height: 400px;
+}
+
+.container .card {
+    /*posicionamento absoluto*/
+    position: absolute;
+    /*posicionamento superior -> centro - altura do cartão*/
+    top: calc(50% - 200px);
+    left: 50%;
+    /* translate -> traz os cards pra esquerda e varia a altura conforme o índice */
+    /* rotate -> rotaciona os cards para a direita (transformação 2D) */
+    /* skew -> rotaciona os cards em 3D */
+    transform: translate(-50%,calc(100px * var(--i))) rotate(40deg) skew(-20deg,-10deg);
+    /*altura e largura do cartão*/
+    width: 300px;
+    height: 400px;
+    background: white;
+    /* display flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* sombreamento */
+    box-shadow: 25px 25px 100px rgba(0, 0, 0, 0.2);
+    /* index de altura variando conforme os indexs dos cards */
+    z-index: calc(-1 * var(--i));
+    /* velocidade de transição */
+    transition: 0.5s;
+}
+
+/* ALTERA A PROPRIEDADE DE OPACIDADE DOS ELEMENTOS FILHOS VARIANDO DE CIMA PARA BAIXO */
+.container .card:nth-child(1) {
+    opacity: 1;
+}
+
+.container .card:nth-child(2) {
+    opacity: 0.8;
+}
+
+.container .card:nth-child(3) {
+    opacity: 0.6;
+}
+
+/* PROPRIEDADES DO CARTÃO AO CONTATO DO CURSOR COM O CONTAINER */
+.container:hover .card {
+    position: absolute;
+    /* a posição superior retorna a 50% para que os cartões fiquem centralizados */
+    top: 50%;
+    left: 50%;
+    /* index de altura é o mesmo para todos os cards */
+    z-index: 1;
+    /* a opacidade será 100% para todos os cards */
+    opacity: 1;
+    /* sombreamento alterado para cima+direita */
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.2);
+    /* translate -> o eixo x agora irá variar entre -50% e -50% + 350px*indice do card (espaçamento entre os cards)
+                    o eixo y subirá apenas -50%
+
+        rotate -> rotação zerada
+
+        skew -> rotação 3D zerada
+    */
+    transform: translate(calc(-50% + calc(350px * var(--i))),-50%) rotate(0) skew(0deg, 0deg);
+}
+
+/* PROPRIEDADES DO CONTEÚDO ANTES DO CONTATO DO CURSOR COM O CONTAINER */
+.container .card .content {
+    color: #444;
+    /* opacidade = 0 para esconder o conteúdo */
+    opacity: 0;
+    /* tempo de transição da aparição do texto */
+    transition: 0.5s;
+    /* o texto irá tranladar 50px no eixo y */
+    transform: translateY(50px);
+    padding: 25px;
+    text-align: center;
+}
+
+/* PROPRIEDADES DO CONTEÚDO AO CONTATO DO CURSOR COM O CONTAINER */
+.container:hover .card .content {
+    /* conteúdo aparece */
+    opacity: 1;
+    /* zerar a translação fará com que o texto sofra um efeito de alteração de altura ao aparecer */
+    transform: translateY(0px);
+    /* o delay do tempo de transição irá variar conforme o índice aplicado aos conteúdos (1, 2 e 3) */
+    transition-delay: calc(0.2 * var(--j))
+}
