@@ -1,0 +1,51 @@
+## 🚀 30diasDeCSS 🚀
+ 
+ Fala Devs, beleza? 🖖
+
+ 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
+
+ ## Objetivo
+
+30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar) a partir de 11 de Novembro de 2020, que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos 
+
+***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias, eu ficarei honrada com sua participação 😉***
+
+## Regras gerais
+
+* Realizar um projeto por dia
+* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
+* O projeto deve ser concluído até 23:59
+
+
+Gostou da ideia? 
+[Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar 
+
+#### Youtube Referencias dos desafios
+[Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - 
+[Creative Creations](https://www.youtube.com/channel/UCOKmVksbzoKJKmtu7rlEM1A) - 
+[DarkCode](https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw)
+
+
+* [Dia 01 - Efeitos Hover em cartões empilhados](#id01)
+
+
+##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
+![Dia 01](./assets/dia1.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia1)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-frontend-css-activity-6732376479906226176-yk7k) 
+
+
+##### O que eu aprendi
+
+
+* *Utilizar índices para aplicar variações em elementos semelhantes*
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
