@@ -52,7 +52,7 @@ Gostou da ideia?
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 
 
-##  Desafio dia 02 - Botão com efeito hover ="id02"></a>
+##  Desafio dia 02 - Botão com efeito hover <a name="id02"></a>
 ![Dia 02](./assets/dia2.gif)
 
 
