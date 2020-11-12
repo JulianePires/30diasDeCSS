@@ -27,6 +27,7 @@ Gostou da ideia?
 
 
 * [Dia 01 - Efeitos Hover em cartões empilhados](#id01)
+* [Dia 02 - Botão com efeito de transição hover](#id02)
 
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
@@ -49,3 +50,24 @@ Gostou da ideia?
 * *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+
+##  Desafio dia 02 - Botão com efeito hover ="id02"></a>
+![Dia 02](./assets/dia2.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia2)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6732649269007831040-Fz4H) 
+
+
+##### O que eu aprendi
+
+
+* *Utilizar índices para aplicar variações em elementos semelhantes*
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
