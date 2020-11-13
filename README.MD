@@ -28,7 +28,7 @@ Gostou da ideia?
 
 * [Dia 01 - Efeitos Hover em cartões empilhados](#id01)
 * [Dia 02 - Botão com efeito de transição hover](#id02)
-
+* [Dia 03 - Cards direcionados com efeito hover](#id03)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -65,9 +65,28 @@ Gostou da ideia?
 
 ##### O que eu aprendi
 
-
-* *Utilizar índices para aplicar variações em elementos semelhantes*
 * *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+
+##  Desafio dia 03 - Cards direcionados com efeito hover <a name="id03"></a>
+![Dia 02](./assets/dia3.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia3)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6733008482770989056-VRuU) 
+
+
+##### O que eu aprendi
+
+
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)* *[Transform-Style](https://www.w3schools.com/cssref/css3_pr_transform-style.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
+* *[Perspective Property](https://www.w3schools.com/cssref/css3_pr_perspective.asp)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
