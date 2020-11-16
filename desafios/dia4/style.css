@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+body {
+    background: #2d2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    background: indigo;
+}
+
+.social{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid darkgray;
+    box-shadow: 2px 5px 10px black, inset -10px -10px 10px darkgray, inset 3px 3px 5px #FFF;
+    transform-style: preserve-3d;
+}
+
+.content .social .fab{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.content .social:hover{
+    animation: bounce 2.5s ease infinite;
+}
+
+.content .social:hover .fa-html5{
+    color: #DD4B25;
+}
+
+.content .social:hover .fa-css3-alt{
+    color: #0273B7;
+}
+
+.content .social:hover .fa-js-square{
+    color: #DD9D27;
+}
+
+.content .social:hover .fa-react{
+    color: #5DD3F3;
+}
+
+.content .social:hover .fa-bootstrap{
+    color: #533C78;
+}
+
+@keyframes bounce {
+    0% {transform: scale(1,1) translateY(0);}
+    5% {transform: scale(1.1,0.9) translateY(0);}
+    25% {transform: scale(0.9,1.1) translateY(-150px);}
+    50% {transform: scale(1.1,0.9) translateY(0);}
+    60% {transform: scale(0.9,1.1) translateY(-100px);}
+    70% {transform: scale(1.1,0.9) translateY(0);}
+    100% {transform: scale(1,1) translateY(0);}
+}
