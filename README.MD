@@ -30,6 +30,7 @@ Gostou da ideia?
 * [Dia 02 - Botão com efeito de transição hover](#id02)
 * [Dia 03 - Cards direcionados com efeito hover](#id03)
 * [Dia 04 - Ícones saltitantes](#id04)
+* [Dia 05 - Tela de Carregamento](#id05)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -114,3 +115,26 @@ Gostou da ideia?
 * *[Translate](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/translate)*
 * *[Fontawesome icons](https://www.w3schools.com/icons/fontawesome_icons_intro.asp)*
 * *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+
+## Desafio dia 05 - Tela de Carregamento <a name="id05"></a>
+![Dia 04](./assets/dia5.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia5)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6734558787111321600-Uebx) 
+
+
+##### O que eu aprendi
+
+
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Scale](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform-function/scale)*
+* *[Transform-origin](https://www.w3schools.com/cssref/css3_pr_transform-origin.asp)*
+* *[Gradients](https://www.w3schools.com/css/css3_gradients.asp)*
+* *[Filter](https://www.w3schools.com/cssref/css3_pr_filter.asp)*
+* *[Animations](https://www.w3schools.com/css/css3_animations.asp)*
