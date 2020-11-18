@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #00AAFF;
+    display: flex;
+    overflow: hidden;
+    animation: sky ease-in-out 15s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sky{
+    0%{
+        background: #00AAFF;
+    }
+
+    20%{
+        background: #0086E5;
+    }
+
+    35%{
+        background: #0060E5;
+    }
+
+    50%{
+        background: #004AB2;
+    }
+
+    70%{
+        background: #003580;
+    }
+
+    85%{
+        background: #00204D;
+    }
+
+    98%{
+        background: #001533;
+    }
+
+    100%{
+        background: #001533;
+    }
+}
+
+.container .sun{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #FFFF00;
+    position: relative;
+    top: 4%;
+    left: 2%;
+    z-index: 0;
+    animation: sun linear 15s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sun{
+    0%{
+        transform: translate(0, 0);
+        background: #FFFF00;
+    }
+
+    20%{
+        transform: translate(15vw, 30vh);
+        background: #FFD500;
+    }
+
+    35%{
+        transform: translate(30vw, 60vh);
+        background: #FFAA00;
+        animation-timing-function: ease-out;
+    }
+
+    50%{
+        transform: translate(42vw, 80vh);
+        background: #FF8000;
+    }
+
+    70%{
+        transform: translate(54vw, 50vh);
+        background: #B2B2B2;
+        
+    }
+
+    85%{
+        transform: translate(65vw, 30vh);
+        background: #CCCCCC;
+    }
+
+    98%{
+        transform: translate(82vw, 0vh);
+        background: #E5E5E5;
+    }
+
+    100%{
+        transform: translate(82vw, 0vh);
+        background: #E5E5E5;
+    }
+}
+
+.container .grass{
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container .grass .grassComponent{
+    position: relative;
+    bottom: -74px;
+    width: 0; 
+    height: 0; 
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #55FF00;
+    z-index: 1;
+    animation: grass ease-in-out 15s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes grass{
+    0%{
+        border-bottom: 40px solid #55FF00;
+    }
+
+    20%{
+        border-bottom: 40px solid #39E500;
+    }
+
+    35%{
+        border-bottom: 40px solid #13E500;
+    }
+
+    50%{
+        border-bottom: 40px solid #0FB200;
+    }
+
+    70%{
+        border-bottom: 40px solid #0B8000;
+    }
+
+    85%{
+        border-bottom: 40px solid #064D00;
+    }   
+
+    98%{
+        border-bottom: 40px solid #043300;
+    }
+    
+    100%{
+        border-bottom: 40px solid #043300;
+    }
+}
