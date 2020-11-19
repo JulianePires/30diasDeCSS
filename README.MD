@@ -32,6 +32,7 @@ Gostou da ideia?
 * [Dia 04 - Ícones saltitantes](#id04)
 * [Dia 05 - Tela de Carregamento](#id05)
 * [Dia 06 - Sun-Moon Transition](#id06)
+* [Dia 07 - Cards com Transições Hover](#id07)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -159,3 +160,23 @@ Gostou da ideia?
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Overflow](https://www.w3schools.com/css/css_overflow.asp)*
 * *[Animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+## Desafio dia 07 - Cards responsivos com transição hover <a name="id07"></a>
+![Dia 07](./assets/dia7.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia7)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6734848033441267712-az8C) 
+
+
+##### O que eu aprendi
+
+
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
+* *[Flex-direction](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-direction#:~:text=A%20propriedade%20CSS%20flex%2Ddirection,dire%C3%A7%C3%A3o%20(normal%20ou%20invertido).)*
