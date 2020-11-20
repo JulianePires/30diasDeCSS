@@ -33,6 +33,7 @@ Gostou da ideia?
 * [Dia 05 - Tela de Carregamento](#id05)
 * [Dia 06 - Sun-Moon Transition](#id06)
 * [Dia 07 - Cards com Transições Hover](#id07)
+* [Dia 08 - Acenda a luz!](#id08)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -180,3 +181,23 @@ Gostou da ideia?
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
 * *[Flex-direction](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-direction#:~:text=A%20propriedade%20CSS%20flex%2Ddirection,dire%C3%A7%C3%A3o%20(normal%20ou%20invertido).)*
+
+## Desafio dia 08 - Acenda a luz! <a name="id08"></a>
+![Dia 08](./assets/dia8.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia8)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6734848033441267712-az8C) 
+
+
+##### O que eu aprendi
+
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
+* *[Flex-direction](https://developer.mozilla.org/pt-BR/docs/Web/CSS/flex-direction#:~:text=A%20propriedade%20CSS%20flex%2Ddirection,dire%C3%A7%C3%A3o%20(normal%20ou%20invertido).)*
+* *[Gradients](https://www.w3schools.com/css/css3_gradients.asp)*
+* *[Filter](https://www.w3schools.com/cssref/css3_pr_filter.asp)*
+* *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
