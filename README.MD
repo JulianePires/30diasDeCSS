@@ -2,7 +2,7 @@
  
  Fala Devs, beleza? 🖖
 
- 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
+ 30 dias de CSS3 é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
 
  ## Objetivo
 
@@ -34,6 +34,7 @@ Gostou da ideia?
 * [Dia 06 - Sun-Moon Transition](#id06)
 * [Dia 07 - Cards com Transições Hover](#id07)
 * [Dia 08 - Acenda a luz!](#id08)
+* [Dia 09 - Planetário](#id09)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -201,3 +202,21 @@ Gostou da ideia?
 * *[Gradients](https://www.w3schools.com/css/css3_gradients.asp)*
 * *[Filter](https://www.w3schools.com/cssref/css3_pr_filter.asp)*
 * *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
+
+## Desafio dia 09 - Planetário <a name="id09"></a>
+![Dia 09](./assets/dia9.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia9)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6736661799380295680-n-zs) 
+
+
+##### O que eu aprendi
+
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
+* *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
+* *[Position](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)*

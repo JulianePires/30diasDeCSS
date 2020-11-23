@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('img/background.png');
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container .card .cardImg .planet{
+    max-width: 100px;
+    height: auto;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.container .card .cardContent{
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+    visibility: hidden;
+    z-index: 0;
+}
+
+.container .card .cardContent h2{
+    align-self: center;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    font-family: 'Nerko One', sans-serif;
+    font-size: 30px;
+}
+
+.container .card .cardContent p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.container .card .cardImg:hover .planet{
+    max-width: 160px;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.container .card .cardImg:hover ~ .cardContent{
+    width: 300px;
+    height: 300px;
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
