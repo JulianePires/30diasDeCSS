@@ -35,6 +35,7 @@ Gostou da ideia?
 * [Dia 07 - Cards com Transições Hover](#id07)
 * [Dia 08 - Acenda a luz!](#id08)
 * [Dia 09 - Planetário](#id09)
+* [Dia 10 - Tela de Carregamento Circular](#id10)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -220,3 +221,23 @@ Gostou da ideia?
 * *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
 * *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
 * *[Position](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)*
+
+## Desafio dia 10 - Tela de Carregamento Circular <a name="id10"></a>
+![Dia 10](./assets/dia10.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia10)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6737053203755544576-a1-s) 
+
+
+##### O que eu aprendi
+
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[-Webkit-box-reflect](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*
