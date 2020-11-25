@@ -36,6 +36,7 @@ Gostou da ideia?
 * [Dia 08 - Acenda a luz!](#id08)
 * [Dia 09 - Planetário](#id09)
 * [Dia 10 - Tela de Carregamento Circular](#id10)
+* [Dia 11 - Fylo data storage component](#id11)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -241,3 +242,21 @@ Gostou da ideia?
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[Animations](https://www.w3schools.com/css/css3_animations.asp)*
 * *[-Webkit-box-reflect](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*
+
+## Desafio dia 11 - Fylo data storage component <a name="id10"></a>
+![Dia 11](./assets/dia11.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia11)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6737400871098888192-S0eF) 
+
+
+##### O que eu aprendi
+
+* *[:root](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root)*
+* *[Variável CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)*
+* *[Media Query](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)*
+
