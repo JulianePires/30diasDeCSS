@@ -43,7 +43,7 @@ h4{
 
 header{
     width: 100vw;
-    height: 22vh;
+    max-height: 22vh;
     background: #4001FF;
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@ header{
 }
 
 header img{
-    width: 30%;
+    max-width: 30%;
     position: relative;
     top: 0.5rem;
 }
@@ -89,6 +89,7 @@ header .nav .nav-list li{
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     font-family: 'Source Code Pro', sans-serif;
@@ -96,28 +97,28 @@ header .nav .nav-list li{
 
 .intro .aboutMe h1{
     margin-top: 20vh;
-    font-size: 40px;
     color: white;
 }
 
 .intro .aboutMe h2{
     margin: 10vh 0;
     color: #4001FF;
-    font-size: 30px;
     text-shadow: 0 1px 0 #F403F4;
 }
 
 /*SOCIAL MEDIA LINKS*/
 
 .intro .aboutMe .social{
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 60vw;
+    max-width: 100vw;
     margin-top: 10vh;
 }
 
 .intro .aboutMe .social .fab{
+    text-align: center;
     color: #fff;
     font-size: 50px;
     margin-right: 2vw;
@@ -200,7 +201,7 @@ header .nav .nav-list li{
 }
 
 .cartoes .card{
-    width: 30vw;
+    width: 300px;
     height: auto;
     background: white;
     margin: 40px 0;
@@ -224,8 +225,8 @@ header .nav .nav-list li{
 }
 
 .cartoes .card .cardImg img{
-    max-width: 30vw;
-    max-height: 30vh;
+    max-width: 100%;
+    max-height: 11em;
 }
 
 .cartoes .card .links{
@@ -249,4 +250,80 @@ header .nav .nav-list li{
 .cartoes .card .links .fa-github:hover{
     color: #211F1F;
     cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    .cartoes{
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-flow: column;
+    }
+}
+
+@media (max-width: 750px){
+
+    h1{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size: 26px;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    
+    h4{
+        font-size: 14px;
+    }
+
+    header{
+        position: relative;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-height: 60vh;
+        min-width: 100vw;
+    }
+
+    header img{
+        max-width: 35%;
+    }
+
+    header .nav .nav-list a{
+        font-size: 100%;
+    }
+
+    .intro{
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 70vh;
+    }
+
+    .intro .aboutMe h1{
+        margin-top: 0vh;
+    }
+    
+    .intro .aboutMe h2{
+        margin: 5vh 0;
+    }
+
+    .intro .aboutMe .social .fab{
+        font-size: 30px;
+    }
+    
+    .about{
+        flex-wrap: wrap;
+        max-height: 150vh;
+    }
+
+    .about img{
+        width: 50vw;
+    }
+
+    .cartoes{
+        flex-wrap: wrap;
+    }
 }
