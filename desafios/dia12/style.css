@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #293039;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    box-shadow: inset 0px 4px 0px #001000;
+    border-radius: 50%;
+    border: 0.5px solid cyan;
+    box-shadow: 0px 0px 20px cyan, inset -10px -10px 10px darkgray, inset 3px 3px 5px #FFF;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: bounce 5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% {transform: scale(1,1) translateY(0);}
+    5% {transform: scale(1.1,0.9) translateY(0);}
+    25% {transform: scale(0.9,1.1) translateY(-200px);}
+    50% {transform: scale(1.1,0.9) translateY(0);}
+    75% {transform: scale(0.9,1.1) translateY(-200px);}
+    95% {transform: scale(1.1,0.9) translateY(0);}
+    100% {transform: scale(1,1) translateY(0);}
+}
+
+.hand{
+    z-index: 1;
+    position: relative;
+    top: 15vh;
+    left: 3vw;
+    animation: pushing 5s ease-in-out infinite;
+}
+
+@keyframes pushing {
+    0% {transform: translateY(0);}
+    5% {transform: rotateX(35deg) translateY(0);}
+    25% {transform: translateY(-100px);}
+    50% {transform: rotateX(35deg) translateY(0);}
+    75% {transform: translateY(-100px);}
+    95% {transform: skewY(-10deg) translateY(0);}
+    98% {transform: skewX(20px) translateY(0);}
+    100% {transform: translateY(0);}
+}

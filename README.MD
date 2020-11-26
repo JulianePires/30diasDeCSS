@@ -37,6 +37,7 @@ Gostou da ideia?
 * [Dia 09 - Planetário](#id09)
 * [Dia 10 - Tela de Carregamento Circular](#id10)
 * [Dia 11 - Fylo data storage component](#id11)
+* [Dia 12 - The Power of The Hand](#id12)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -243,7 +244,7 @@ Gostou da ideia?
 * *[Animations](https://www.w3schools.com/css/css3_animations.asp)*
 * *[-Webkit-box-reflect](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)*
 
-## Desafio dia 11 - Fylo data storage component <a name="id10"></a>
+## Desafio dia 11 - Fylo data storage component <a name="id11"></a>
 ![Dia 11](./assets/dia11.gif)
 
 
@@ -259,4 +260,21 @@ Gostou da ideia?
 * *[:root](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:root)*
 * *[Variável CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)*
 * *[Media Query](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)*
+
+## Desafio dia 12 - The power of the hand <a name="id12"></a>
+![Dia 12](./assets/dia12.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia12)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6737759937646125056-6AWx) 
+
+
+##### O que eu aprendi
+
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Skew](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)*
 
