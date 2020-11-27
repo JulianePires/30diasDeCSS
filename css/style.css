@@ -323,6 +323,11 @@ header .nav .nav-list li{
         width: 50vw;
     }
 
+    .about .sobre ul{
+        margin-left: 25px;
+        padding-bottom: 10px;
+    }
+
     .cartoes{
         flex-wrap: wrap;
     }
