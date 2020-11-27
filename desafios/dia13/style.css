@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Goldman';
+}
+
+body{
+    min-height: 100vh; /*DEFINIMOS A ALTURA MÍNIMA DE 100 VH PARA QUE A PÁGINA OCUPE TODO O ESPAÇO DA TELA*/
+    background: #18181B; /*COR DO BACKGROUND CINZA ESCURO DEFINIDO NO FIGMA*/
+    display: flex; /*DISPLAY FLEX DEFININDO O POSICIONAMENTO CENTRAL DO CONTEÚDO*/
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.outsideCircle{
+    width: 200px;
+    height: 200px;
+    left: 72px;
+    top: 412px;
+    background: #E11D48;
+    border: 5px solid #BE123C;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 20px #E11D48;
+}
+
+
+.outsideCircle:nth-child(2){
+    background: #0EA5E9;
+    border: 5px solid #0369A1;
+    box-shadow: 0px 0px 15px 20px #0EA5E9;
+}
+
+.outsideCircle:nth-child(3){
+    background: #EF4444;
+    border: 5px solid #B91C1C;
+    box-shadow: 0px 0px 15px 20px #EF4444;
+}
+
+.outsideCircle:nth-child(4){
+    background: #84CC16;
+    border: 5px solid #4D7C0F;
+    box-shadow: 0px 0px 15px 20px #84CC16;
+}
+
+.outsideCircle:nth-child(5){
+    background: #FACC15;
+    border: 5px solid #CA8A04;
+    box-shadow: 0px 0px 15px 20px #FACC15;
+}
+
+.container .outsideCircle .insideCircle{
+    width: 250px;
+    height: 250px;
+    background: #F4F4F5;
+    border-radius: 50%;
+    position: absolute;
+    left: 5.1vw;
+    top: 70px;
+    visibility: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container .outsideCircle .insideCircle img{
+    z-index: 100;
+    position: absolute;
+    top: 55px;
+}
+
+.container .outsideCircle .card{
+    position: absolute;
+    background: #F4F4F5;
+    border: 5px solid #E11D48;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    visibility: hidden;
+    padding: 25px 15px;
+    top: 45vh;
+    left: 3.3vw;
+    z-index: 0;
+}
+
+.container .outsideCircle #blue{
+    border: 5px solid #0369A1;
+}
+
+.container .outsideCircle #red{
+    border: 5px solid #B91C1C;
+}
+
+.container .outsideCircle #green{
+    border: 5px solid #4D7C0F;
+}
+
+.container .outsideCircle #yellow{
+    border: 5px solid #CA8A04;
+}
+
+.container .outsideCircle .card .cardTitle{
+    text-align: center;
+}
+
+.container .outsideCircle #pink .cardContent strong{
+    color: #BE123C;
+}
+
+.container .outsideCircle #blue .cardContent strong{
+    color: #0369A1;
+}
+
+.container .outsideCircle #red .cardContent strong{
+    color: #B91C1C;
+}
+
+.container .outsideCircle #green .cardContent strong{
+    color: #4D7C0F;
+}
+
+.container .outsideCircle #yellow .cardContent strong{
+    color: #CA8A04;
+}
+
+.container:hover{
+    visibility: hidden;
+}
+
+.container .outsideCircle:hover{
+    visibility: visible;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 35vw;
+    top: 75px;
+}
+
+.container .outsideCircle:hover .insideCircle{
+    visibility: visible;
+}
+
+
+.container .outsideCircle:hover .card{
+    visibility: visible;
+}

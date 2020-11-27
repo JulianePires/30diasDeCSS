@@ -38,6 +38,7 @@ Gostou da ideia?
 * [Dia 10 - Tela de Carregamento Circular](#id10)
 * [Dia 11 - Fylo data storage component](#id11)
 * [Dia 12 - The Power of The Hand](#id12)
+* [Dia 13 - Go Go Power Rangers!](#id13)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -278,3 +279,21 @@ Gostou da ideia?
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Skew](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)*
 
+## Desafio dia 13 - Go Go Power Rangers! <a name="id13"></a>
+![Dia 13](./assets/dia13.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia13)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6738175682121138176-tEfS) 
+
+
+##### O que eu aprendi
+
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
+* * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
