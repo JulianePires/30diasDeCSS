@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111827;
+}
+
+
+.botao{
+    width: 100px;
+    height: 100px;
+    background: #E5E7EB;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.botao h2{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    color: #374151;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao:hover h2{
+    color: #111827;
+    
+}
+
+.botao:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+.container{
+    position: relative;
+}
+
+.container .ring{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container .botao:hover ~ .ring{
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg) scale(1,1);
+    }
+
+    25%{
+        transform: rotate(90deg) scale(1.5,1.5);
+    }
+
+    50%{
+        transform: rotate(180deg) scale(2.2,2.2);
+    }
+
+    75%{
+        transform: rotate(270deg) scale(1.5,1.5);
+    }
+
+    100%{
+        transform: rotate(360deg) scale(1,1);
+    }
+}
+
+.container .ring .ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.container .botao:hover ~ .ring .ball{
+    visibility: visible;
+}
+.container .ring .ball::before{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    background: #E5E7EB;
+    border-radius: 50%;
+    transform: translateY(50%);
+    box-shadow: 0px 0px 15px #E5E7EB;
+}
+
+.container .ring .ball:nth-child(2)::before{
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.container .ring .ball:nth-child(3)::before{
+    bottom: 50%;
+    left: 0;
+}
+
+.container .ring .ball:nth-child(4)::before{
+    bottom: 100%;
+    left: 40%;
+    transform: translateY(100%);
+}

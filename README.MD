@@ -296,4 +296,25 @@ Gostou da ideia?
 * *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
 * *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
-* * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+## Desafio dia 14 - Botão com bolinhas rotatórias <a name="id14"></a>
+![Dia 14](./assets/dia14.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia14)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6739269452115922944-8vGe) 
+
+
+##### O que eu aprendi
+
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
