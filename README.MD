@@ -329,7 +329,7 @@ Gostou da ideia?
 
 [Tutorial Medium]() *Ainda não disponivel*
 
-[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6739269452115922944-8vGe) 
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6739562802530320385-OIGt) 
 
 
 ##### O que eu aprendi
