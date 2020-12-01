@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+    color: #fafafa;
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80vh;
+    height: 60vh;
+    border: 12px solid #4c1d95;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #5b21b6, inset 0px 0px 10px 8px #5b21b6;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container .pacman{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #facc15;
+    position: relative;
+    margin-top: 22px;
+    transform: translateX(15px);
+    animation: round 10s ease-in-out infinite;
+}
+
+@keyframes round {
+    0% {left: 5%; top: 0;}
+    20% {left: 75%; top: 0;}
+    22% {transform: rotate(90deg);}
+    40% {left: 75%; top: 60%;}
+    42% {transform: rotate(180deg);}
+    60% {left: 5%; top: 60%;}
+    62% {transform: rotate(270deg);}
+    80% {left: 5%; top: 0;}
+    81% {transform: rotate(360deg);}
+    100% {left: 5%; top: 0;}
+}
+
+.container .pacman .pacmanOlho {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 20px;
+    right: 40px;
+    background: #262626;
+}
+
+.container .pacman .pacmanBoca {
+    background: #171717;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
+    animation-name: eat;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes eat {
+    0% {clip-path: polygon(100% 74%, 44% 48%, 100% 21%);}
+    25% {clip-path: polygon(100% 60%, 44% 48%, 100% 40%);}
+    50% {clip-path: polygon(100% 50%, 44% 48%, 100% 50%);}
+    75% {clip-path: polygon(100% 59%, 44% 48%, 100% 35%);}
+    100% {clip-path: polygon(100% 74%, 44% 48%, 100% 21%);}
+}
+
+.container .pacmanComida {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #22d3ee;
+    border-radius: 50%;
+    top: 34%;
+    left: 50%;
+    animation: food1 10s linear infinite;
+}
+
+@keyframes food1{
+    0% {background:#22d3ee};
+    9% {background:#22d3ee}
+    10% {background: none;}
+    12% {background: none;}
+    100% {background: none;}
+}
+
+.container .pacmanComida:nth-child(2){
+    background: #a3e635;
+    top: 50%;
+    left: 62%;
+    animation: food2 10s infinite;
+}
+
+@keyframes food2{
+    0% {background:#a3e635}
+    28%{background:#a3e635}
+    29% {background: none;}
+    42% {background: none;}
+    100% {background: none;}
+}
+
+.container .pacmanComida:nth-child(3){
+    background: #f87171;
+    top: 63%;
+    left: 50%;
+    animation: food3 10s infinite;
+}
+
+@keyframes food3{
+    0% {background:#f87171}
+    48%{background:#f87171}
+    49% {background: none;}
+    62% {background: none;}
+    100% {background: none;}
+}
+
+.container .pacmanComida:nth-child(4){
+    background: #f97316;
+    top: 50%;
+    left: 37%;
+    animation: food4 10s infinite;
+}
+
+@keyframes food4{
+    0% {background:#f97316}
+    67%{background:#f97316}
+    68% {background: none;}
+    82% {background: none;}
+    100% {background: none;}
+}
+  

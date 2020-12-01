@@ -39,6 +39,8 @@ Gostou da ideia?
 * [Dia 11 - Fylo data storage component](#id11)
 * [Dia 12 - The Power of The Hand](#id12)
 * [Dia 13 - Go Go Power Rangers!](#id13)
+* [Dia 14 - Botão com bolinhas rotatórias](#id14)
+* [Dia 15 - PAC MAN](#id15)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -318,3 +320,24 @@ Gostou da ideia?
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+
+## Desafio dia 15 - PAC MAN <a name="id15"></a>
+![Dia 15](./assets/dia15.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia15)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6739269452115922944-8vGe) 
+
+
+##### O que eu aprendi
+
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Posicionamento Absoluto](https://www.w3schools.com/css/css_positioning.asp)*
