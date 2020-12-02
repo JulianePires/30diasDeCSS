@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: #6D28D9;
+    --blue: #1D4ED8;
+    --cyano: #22D3EE;
+    --green: #84CC16;
+    --yellow: #FACC15;
+    --orange: #F97316;
+    --red: #DC2626;
+    --black: #171717;
+    --darkGray: #44403C;
+    --lightGray: #78716C;
+    --lighterGray: #F5F5F4;
+}
+
+body {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    padding: 20px;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container .card{
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: var(--purple);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .card:nth-child(2){
+    background: var(--blue);
+}
+
+.container .card:nth-child(3){
+    background: var(--cyano);
+}
+
+.container .card:nth-child(4){
+    background: var(--green);
+}
+
+.container .card:nth-child(4) img{
+    transform: translateY(7px);
+}
+
+.container .card:nth-child(5){
+    background: var(--yellow);
+}
+
+.container .card:nth-child(6){
+    background: var(--orange);
+}
+
+.container .card:nth-child(7){
+    background: var(--red);
+}
+
+.container .card:hover{
+    transform: translateY(30px);
+}
+
+.container .card .cardTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--darkGray);
+    position: relative;
+    top: -30px
+}
+
+.container .card .cardSubtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F5F5F4;
+    text-shadow: 1px 1px 1px #78716C;
+    position: relative;
+    top: -25px;
+}
+
+.container .title{
+    --textColor: var(--lighterGray);
+    width: 100vw;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: var(--textColor);
+    text-shadow: 0px 0px 30px var(--textColor);
+    animation: pisca 3s alternate infinite ease-in-out;
+    font-size: 48px;
+}
+
+@keyframes pisca {
+    from {text-shadow: 0px 0px 0px var(--textColor);}
+    to {text-shadow: 0px 0px 30px var(--textColor);}
+}
+
+.container .card:hover ~ .title{
+    --textColor: var(--purple);
+}
+
+.container .card:nth-child(2):hover ~ .title{
+    --textColor: var(--blue);
+}
+
+.container .card:nth-child(3):hover ~ .title{
+    --textColor: var(--cyano);
+}
+
+.container .card:nth-child(4):hover ~ .title{
+    --textColor: var(--green);
+}
+
+.container .card:nth-child(5):hover ~ .title{
+    --textColor: var(--yellow);
+}
+
+.container .card:nth-child(6):hover ~ .title{
+    --textColor: var(--orange);
+}
+
+.container .card:nth-child(7):hover ~ .title{
+    --textColor: var(--red);
+}
+
+.container .card:nth-child(2):hover ~ .title{
+    --textColor: var(--blue);
+}

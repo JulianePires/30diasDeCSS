@@ -41,6 +41,7 @@ Gostou da ideia?
 * [Dia 13 - Go Go Power Rangers!](#id13)
 * [Dia 14 - Botão com bolinhas rotatórias](#id14)
 * [Dia 15 - PAC MAN](#id15)
+* [Dia 16 - Rainbow Panel](#id16)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -341,3 +342,21 @@ Gostou da ideia?
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Posicionamento Absoluto](https://www.w3schools.com/css/css_positioning.asp)*
+
+## Desafio dia 16 - Rainbow Panel <a name="id16"></a>
+![Dia 16](./assets/dia16.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia16)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6739970694219657216-DI05) 
+
+
+##### O que eu aprendi
+
+* *[Box-shadow](https://developer.mozilla.org/pt-BR/docs/Web/CSS/box-shadow)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
