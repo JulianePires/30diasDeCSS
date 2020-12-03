@@ -42,6 +42,7 @@ Gostou da ideia?
 * [Dia 14 - Botão com bolinhas rotatórias](#id14)
 * [Dia 15 - PAC MAN](#id15)
 * [Dia 16 - Rainbow Panel](#id16)
+* [Dia 17 - Efeito Pisada](#id17)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -360,3 +361,21 @@ Gostou da ideia?
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+
+## Desafio dia 17 - Efeito Pisada <a name="id17"></a>
+![Dia 17](./assets/dia17.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia17)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6740393487344250881-PPiZ) 
+
+
+##### O que eu aprendi
+* *[Font Face](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@font-face)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/visibility#:~:text=The%20element%20box%20is%20invisible,have%20visibility%20set%20to%20visible%20.)*
