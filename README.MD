@@ -44,6 +44,7 @@ Gostou da ideia?
 * [Dia 16 - Rainbow Panel](#id16)
 * [Dia 17 - Efeito Pisada](#id17)
 * [Dia 18 - Loader](#id18)
+* [Dia 19 - Card com efeitos hover e focus](#id19)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -385,7 +386,7 @@ Gostou da ideia?
 ![Dia 18](./assets/dia18.gif)
 
 
-[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia17)
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia18)
 
 [Tutorial Medium]() *Ainda não disponivel*
 
@@ -396,3 +397,24 @@ Gostou da ideia?
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+## Desafio dia 19 - Card com efeitos hover e focus <a name="id19"></a>
+![Dia 19](./assets/dia19.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia19)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6741889812472610817-I4l9) 
+
+
+##### O que eu aprendi
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Posicionamento Absoluto](https://www.w3schools.com/css/css_positioning.asp)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
+* *[focus](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus)*
