@@ -418,3 +418,23 @@ Gostou da ideia?
 * *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
 * *[Sibling Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/General_sibling_combinator)*
 * *[focus](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:focus)*
+
+## Desafio dia 20 - Loader Ninja <a name="id20"></a>
+![Dia 20](./assets/dia20.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia20)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6742536828890574848-o6qk) 
+
+
+##### O que eu aprendi
+* *[-webkit-text-fill-color](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color)*
+* *[-webkit-background-clip](https://developer.mozilla.org/pt-BR/docs/Web/CSS/background-clip)*
+* *[-webkit-linear-gradient](https://webkit.org/blog/1424/css3-gradients/)*
+* *[Posicionamento Absoluto](https://www.w3schools.com/css/css_positioning.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
