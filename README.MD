@@ -438,3 +438,21 @@ Gostou da ideia?
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+
+## Desafio dia 21 - Ícones com efeito hover <a name="id21"></a>
+![Dia 21](./assets/dia21.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia21)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6742803491179290624-nSnG) 
+
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
