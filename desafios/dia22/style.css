@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4C1D95;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galinha {
+    height: 90vh;
+    width: auto;
+    animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes jump {
+    0%{transform: translateY(0);}
+    20%{transform: translateY(10px);}
+    40%{transform: translateY(-20px);}
+    50%{transform: translateY(-30px);}
+    60%{transform: translateY(-20px);}
+    80%{transform: translateY(10px);}
+    100%{transform: translateY(0px);}
+}
+
+.galinha .cabeca {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 16;
+    width: 110px;
+    height: 100px;
+    background: #fefce8;
+    border-radius: 50%;
+    border: 1px solid #3f3f46;
+}
+
+.galinha .cabeca .olhos {
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    left: 25%;
+}
+
+.galinha .cabeca .olhos .olho {
+    width: 24px;
+    height: 19px;
+    background: #3f3f46;
+    border-radius: 50%;
+}
+
+.galinha .cabeca .bico {
+    width: 40px;
+    height: 30px;
+    background: none;
+    border-top: 30px solid transparent;
+    border-left: 40px solid #FACC15;
+    position: relative;
+    top: 24%;
+    left: 50%;
+}
+
+.galinha .corpo {
+    height: 200px;
+    width: 150px;
+    background: #fefce8;
+    border-radius: 40%;
+    position: relative;
+    top: 36%;
+    left: -8%;
+    z-index: 10;
+    border: 1px solid #3f3f46;
+}
+
+.galinha .asas {
+    position: absolute;
+    width: 230px; 
+    height: auto;  
+    z-index: 11;
+    left: -32%;
+    top: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galinha .asas .asaEsquerda, .asaDireita {
+    height: 150px;
+    width: 60px;
+
+}
+
+.galinha .asas .asaEsquerda .pena {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fefce8;
+    border: 1px solid #3f3f46;
+    position: absolute;
+}
+
+.galinha .asas .asaDireita .pena:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    transform: translateY(36px) translateX(10px);
+    z-index: 12;
+}
+
+.galinha .asas .asaDireita .pena:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    transform: translateY(70px);
+    z-index: 13;
+}
+
+.galinha .asas .asaDireita .pena {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fefce8;
+    border: 1px solid #3f3f46;
+    position: absolute;
+}
+
+.galinha .asas .asaEsquerda .pena:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    transform: translateY(36px) translateX(-10px);
+}
+
+.galinha .asas .asaEsquerda .pena:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    transform: translateY(70px);
+}
+
+.galinha .patinhas {
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    bottom: 20.5%;
+    left: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.galinha .patinhas .patinhaEsquerda{
+    height: 70px;
+    width: 30px;
+}
+
+.galinha .patinhas .patinhaDireita,.patinhaEsquerda .perna{
+    width: 5px;
+    height: 70px;
+    border: 5px solid #FACC15;
+}
+
+.galinha .patinhas .patinhaEsquerda .dedoE{
+    width: 5px;
+    height: 28px;
+    border: 5px solid #FACC15;
+    transform: rotate(20deg);
+}
+
+.galinha .patinhas .patinhaEsquerda .dedoE:nth-child(2){
+    transform: rotate(-30deg) translateX(10px);
+    position: absolute;
+}
+
+.galinha .patinhas .patinhaEsquerda .dedoE:nth-child(3){
+    transform: rotate(40deg) translateX(-10px);
+    position: absolute;
+}
+
+.galinha .patinhas .patinhaDireita .dedoD{
+    width: 5px;
+    height: 28px;
+    border: 5px solid #FACC15;
+    transform: rotate(-20deg) translateY(60px) translateX(-23px);
+}
+
+.galinha .patinhas .patinhaDireita .dedoD:nth-child(2){
+    transform: rotate(-42deg) translateX(-35px) translateY(50px);
+    position: absolute;
+}
+
+.galinha .patinhas .patinhaDireita .dedoD:nth-child(3){
+    transform: rotate(22deg) translateX(13px) translateY(60px);
+    position: absolute;
+}
+
+.galinha .patinhas .dedos {
+    width: 90px;
+    height: 35px;
+}
+
