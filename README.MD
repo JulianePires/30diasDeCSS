@@ -456,3 +456,20 @@ Gostou da ideia?
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+## Desafio dia 22 - Ícones com efeito hover <a name="id22"></a>
+![Dia 22](./assets/dia22.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia22)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6743292707529142272-OVnj) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
