@@ -45,6 +45,10 @@ Gostou da ideia?
 * [Dia 17 - Efeito Pisada](#id17)
 * [Dia 18 - Loader](#id18)
 * [Dia 19 - Card com efeitos hover e focus](#id19)
+* [Dia 20 - Loader Ninja](#id20)
+* [Dia 21 - Ícones com Efeito Hover](#id21)
+* [Dia 22 - Galinha Saltitante](#id22)
+* [Dia 23 - Card flip + Redes Sociais](#id23)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -472,4 +476,19 @@ Gostou da ideia?
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+
+## Desafio dia 23 - Card flip + redes sociais <a name="id23"></a>
+![Dia 23](./assets/dia23.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia23)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-challenge-css-activity-6744660748716302337-ZyS2) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[backface-visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/backface-visibility)*
 * *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*

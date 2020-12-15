@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background:#1c1917;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    perspective: 1000;
+    position: relative;
+}
+
+.container .card {
+    width: 30vw;
+    height: 70vh;
+    background: #fff;
+    transition: 0.6s;  	
+    transform-style: preserve-3d;    	
+    position: absolute;
+    top: -10%;
+    left: 30%;
+    border-radius: 5%;
+}
+
+.container .card img {
+    max-width: 30vw;
+    background-color: #84cc16;
+}
+
+.container:hover .card {
+    transform: rotateY(180deg) translateX(20vw);
+    background-color: #84cc16;
+}
+
+.container .card .front { 
+    z-index: 2;  
+    margin-top: 20px;
+    background-color: #84cc16;
+}
+
+.container .card .back { 
+    transform: rotateY(180deg); 
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px;
+    border-bottom: 10px solid aliceblue;
+    border-top: 10px solid aliceblue;
+    padding-top: 20px;
+}
+
+.container .card .front, .back {  	
+    backface-visibility: hidden;    	
+    position: absolute;  	
+    top: 0;  	
+    left: 0;  
+}
+
+.container .card .back h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .card .back ul li {
+    list-style: none;
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.container .socialContainer {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    z-index: -1;
+}
+
+.container:hover .socialContainer {
+    transform: translateX(20vw);
+    transition-delay: -.2s; 
+}
+
+.container .socialContainer h2 {
+    font-size: 48px;
+    color: #84cc16;
+}
+
+.container .socialContainer .social {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.container .socialContainer .social a .fab {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer !important; 
+    
+}
+
+.container .socialContainer .social .fa-linkedin:hover{
+    color: #0976b4;
+    cursor: pointer;
+}
+
+.container .socialContainer .social .fa-github:hover{
+    color: #211F1F;
+    cursor: pointer;
+}
+
+.container .socialContainer .social .fa-instagram:hover{
+    color: #CE0094;
+    cursor: pointer;
+}
+
+.container .socialContainer .social .fa-free-code-camp:hover{
+    color: #0B0036;
+    cursor: pointer;
+}
+
+.container .socialContainer .social .fa-codepen:hover{
+    color: #D9D000;
+    cursor: pointer;
+}
