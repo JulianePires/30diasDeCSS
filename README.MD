@@ -492,3 +492,18 @@ Gostou da ideia?
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[backface-visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/backface-visibility)*
 * *[Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+
+## Desafio dia 24 - Botão com efeito hover <a name="id24"></a>
+![Dia 24](./assets/dia24.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia24)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6745125854029918208-D2Ih) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
