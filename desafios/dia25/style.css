@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkPurple: #220948;
+    --purple1: #4C1D95;
+    --purple2: #6D28D9;
+    --purple3: #7C3AED;
+    --purple4: #8B5CF6;
+    --gold1: #FACC15;
+    --gold2: #CA8A04;
+    --gold3: #A16207;
+    --lightGray: #E5E2E2;
+}
+
+body {
+    min-height: 100vh;
+    background: #18181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .bird {
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    animation: fly 1s ease-in-out infinite;
+}
+
+@keyframes fly {
+    0% {transform: translateY(0);}
+    40% {transform: translateY(-15px);}
+    40% {transform: translateY(15px);}
+    100% {transform: translateY(0px);}
+}
+
+.container .bird .head {
+    width: 80px;
+    height: 80px;
+    background: var(--darkPurple);
+    border: 4px solid #000000;
+    transform: rotate(-45deg);
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.container .bird .head .eye {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: var(--lightGray);
+    border: 4px solid #000000;
+    top: 25%;
+    left: 40%;
+    transform: rotate(-45deg);
+    backface-visibility: hidden;
+}
+
+.container .bird .head .beak {
+    width: 45px;
+    height: 45px;
+    background: var(--gold1);
+    border: 4px solid #000000;
+    position: absolute;
+    z-index: -100;
+    transform: translateX(-25px) translateY(-25px);
+    backface-visibility: hidden; 
+}
+
+.container .bird .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.container .bird .body .leftWing, .container .bird .body .rightWing {
+    width: 300px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .bird .body .leftWing .shape, .container .bird .body .rightWing .shape {
+    width: 300px;
+    height: 70px;
+    background: var(--purple4);
+    border: 4px solid #000000;
+    transform-style: preserve-3d;
+}
+
+.container .bird .body .leftWing .shape {
+    border-radius: 90px 0px 0px 0px;
+    animation: leftWing 1s ease-in-out infinite;
+}
+
+@keyframes leftWing {
+    0% {transform: rotate(0);}
+    50% {transform: rotate(5deg);}
+    100% {transform: rotate(0);}
+}
+
+.container .bird .body .rightWing .shape {
+    border-radius: 0px 90px 0px 0px;
+    animation: rightWing 1s ease-in-out infinite;
+}
+
+@keyframes rightWing {
+    0% {transform: rotate(0);}
+    50% {transform: rotate(-5deg);}
+    100% {transform: rotate(0);}
+}
+
+.container .bird .body .leftWing .shape:nth-child(2),.container .bird .body .rightWing .shape:nth-child(2) {
+    border-radius: 0px 0px 0px 0px;
+    background: var(--purple3);
+}
+
+.container .bird .body .leftWing .shape:nth-child(3),.container .bird .body .rightWing .shape:nth-child(3) {
+    border-radius: 0px 0px 0px 0px;
+    background: var(--purple2);
+}
+
+.container .bird .body .leftWing .shape:nth-child(4),.container .bird .body .rightWing .shape:nth-child(4) {
+    border-radius: 0px 0px 0px 0px;
+    background: var(--purple1);
+}
+
+.container .bird .body .middle {
+    width: 70px;
+    height: 280px;
+    border: 4px solid #000000;
+    background: var(--darkPurple);
+}
+
+.container .bird .tail {
+    width: 150px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .bird .tail .feather {
+    width: 23px;
+    height: 148px;
+    transform: rotate(30deg);
+    border: 4px solid #000000;
+    background: var(--gold2);
+    transition-duration: .5s;
+    animation: feather2 1s ease-in-out infinite;
+}
+
+@keyframes feather2 {
+    0% {transform: rotate(30deg);}
+    50% {transform: rotate(40deg);}
+    100% {transform: rotate(30deg);}
+}
+
+.container .bird .tail .feather:nth-child(2) {
+    transform: rotate(0);
+    background: var(--gold3);
+    animation: feather1 1s ease-in-out infinite;
+}
+
+@keyframes feather1 {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(5px);}
+    100% {transform: translateY(0);}
+}
+
+.container .bird .tail .feather:nth-child(3) {
+    transform: rotate(-30deg);
+    background: var(--gold2);
+    animation: feather3 1s ease-in-out infinite;
+}
+
+@keyframes feather3 {
+    0% {transform: rotate(-30deg);}
+    50% {transform: rotate(-40deg);}
+    100% {transform: rotate(-30deg);}
+}
