@@ -51,6 +51,7 @@ Gostou da ideia?
 * [Dia 23 - Card flip + Redes Sociais](#id23)
 * [Dia 24 - Botão com efeito Hover](#id24)
 * [Dia 25 - Pássaro Geométrico](#id25)
+* [Dia 26 - Cards Animais](#id26)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -523,6 +524,22 @@ Gostou da ideia?
 ##### O que eu aprendi
 * *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[backface-visibility](https://developer.mozilla.org/pt-BR/docs/Web/CSS/backface-visibility)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+## Desafio dia 26 - Cards Animais <a name="id26"></a>
+![Dia 26](./assets/dia26.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia26)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6746075041202524160-ILLg) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
