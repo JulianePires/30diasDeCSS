@@ -104,5 +104,5 @@ body {
     /* zerar a translação fará com que o texto sofra um efeito de alteração de altura ao aparecer */
     transform: translateY(0px);
     /* o delay do tempo de transição irá variar conforme o índice aplicado aos conteúdos (1, 2 e 3) */
-    transition-delay: calc(0.2 * var(--j))
+    transition-delay: calc(0.2s * var(--j));
 }
