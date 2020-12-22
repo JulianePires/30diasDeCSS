@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #4c1d95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .set {
+    width: 10vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.container .set button {
+    width: 70px;
+    height: 50px;
+    border-radius: 22px;
+    border: 2px solid #4c1d95;
+    background: linear-gradient(145deg, #441a86, #511f9f);
+    color: #0ea5e9;
+    font-weight: bold;
+    box-shadow:  15px 15px 30px #3b1673, -15px -15px 30px #5d24b7;
+    cursor: pointer;
+}
+
+.container .set:nth-child(2) button {
+    border: 2px solid #4c1d95;
+    color: #84cc16;
+}
+
+.container .set:nth-child(3) button {
+    border: 2px solid #4c1d95;
+    color: #f97316;
+}
+
+.container .set .cup {
+    height: 20vh;
+    width: 5vw;
+    background: linear-gradient(145deg, #441a86, #511f9f);
+    box-shadow:  15px 15px 30px #3b1673, -15px -15px 30px #5d24b7;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+}
+
+.container .set .cup .wave {
+    width: 4vw;
+    height: 10vh;
+    background: linear-gradient(145deg, #0fb1f9, #0d95d2);
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 2px;
+    left: 8px;
+    box-shadow: 5px 5px 13px #0c89c1, -5px -5px 13px #10c1ff;
+}
+
+
+
+.container .set:nth-child(2) .cup .wave {
+    background: linear-gradient(145deg, #8dda18, #77b814);
+    box-shadow:  5px 5px 13px #6ea912, -5px -5px 13px #9aef1a;
+}
+
+.container .set:nth-child(3) .cup .wave {
+    background: linear-gradient(145deg, #ff7b18, #e06814);
+    box-shadow:  5px 5px 13px #cf5f12, -5px -5px 13px #ff871a;
+}
+
+.container .set button:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: .5s;
+}
+
+.container .set button:focus {
+    outline-style: none;
+}
+
+.container .set button:focus ~ .cup .wave {
+    height: 16vh;
+    transition-duration: 2s;
+}
