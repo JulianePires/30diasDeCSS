@@ -52,6 +52,8 @@ Gostou da ideia?
 * [Dia 24 - Botão com efeito Hover](#id24)
 * [Dia 25 - Pássaro Geométrico](#id25)
 * [Dia 26 - Cards Animais](#id26)
+* [Dia 27 - Cup Set](#id27)
+* [Dia 28 - Material Icons](#id28)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -559,4 +561,20 @@ Gostou da ideia?
 * *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
 * *[neumorphism](https://medium.com/codee-myndset/neomorfismo-no-desenvolvimento-web-mobile-7fedc717431b)*
 * *[outline-style](https://www.w3schools.com/cssref/pr_outline-style.asp)*
-* 
+
+## Desafio dia 28 - Material Icons <a name="id28"></a>
+![Dia 28](./assets/dia28.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia28)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6747314202144227328-RFQ3) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[CSS Grid Layout](https://www.w3schools.com/css/css_grid.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
