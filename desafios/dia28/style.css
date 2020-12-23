@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F50057;
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-content: center;
+    justify-items: center;
+}
+
+.container .button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    position: relative;
+    cursor: pointer;
+}
+
+.button:hover {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {background: #fff;}
+    50% {background: black;}
+    100% {background: #fff;} 
+}
+
+.container .button .icon {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60px;
+    height: 60px;
+}
+
+.button:hover #icon1 {
+    animation: change1 3s ease-in-out infinite;
+}
+
+@keyframes change1 {
+    0% {
+        background: url('img/wifi-24px.svg');
+        background-size: cover;
+    }
+    50% {
+        background: url('img/wifi_off-24px.svg');
+        background-size: cover;
+    }
+    100% {
+        background: url('img/wifi-24px.svg');
+        background-size: cover;
+    }
+}
+
+#icon1 {
+    background: url('img/wifi-24px.svg');
+    background-size: cover;
+}
+
+#icon2 {
+    background: url('img/power-24px.svg');
+    background-size: cover;
+}
+
+.button:hover #icon2 {
+    animation: change2 3s ease-in-out infinite;
+}
+
+@keyframes change2 {
+    0% {
+        background: url('img/power-24px.svg');
+        background-size: cover;
+    }
+    50% {
+        background: url('img/power_off-24px.svg');
+        background-size: cover;
+    }
+    100% {
+        background: url('img/power-24px.svg');
+        background-size: cover;
+    }
+}
+
+#icon3 {
+    background: url('img/music_note-24px.svg');
+    background-size: cover;
+}
+
+.button:hover #icon3 {
+    animation: change3 3s ease-in-out infinite;
+}
+
+@keyframes change3 {
+    0% {
+        background: url('img/music_note-24px.svg');
+        background-size: cover;
+    }
+    50% {
+        background: url('img/music_off-24px.svg');
+        background-size: cover;
+    }
+    100% {
+        background: url('img/music_note-24px.svg');
+        background-size: cover;
+    }
+}
+
+#icon4 {
+    background: url('img/layers-24px.svg');
+    background-size: cover;
+}
+
+.button:hover #icon4 {
+    animation: change4 3s ease-in-out infinite;
+}
+
+@keyframes change4 {
+    0% {
+        background: url('img/layers-24px.svg');
+        background-size: cover;
+    }
+    50% {
+        background: url('img/layers_clear-24px.svg');
+        background-size: cover;
+    }
+    100% {
+        background: url('img/layers-24px.svg');
+        background-size: cover;
+    }
+}
+
+#icon5 {
+    background: url('img/flash_on-24px.svg');
+    background-size: cover;
+}
+
+.button:hover #icon5 {
+    animation: change5 3s ease-in-out infinite;
+}
+
+@keyframes change5 {
+    0% {
+        background: url('img/flash_on-24px.svg');
+        background-size: cover;
+    }
+    50% {
+        background: url('img/flash_off-24px.svg');
+        background-size: cover;
+    }
+    100% {
+        background: url('img/flash_on-24px.svg');
+        background-size: cover;
+    }
+}
