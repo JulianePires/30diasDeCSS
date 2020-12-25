@@ -578,3 +578,19 @@ Gostou da ideia?
 * *[CSS Grid Layout](https://www.w3schools.com/css/css_grid.asp)*
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+
+## Desafio dia 29 - Landing Page <a name="id29"></a>
+![Dia 29](./assets/dia29.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia29)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6748255681838686208-VrZC) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[Media Query](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries)*

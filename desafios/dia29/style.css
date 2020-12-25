@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&family=Spinnaker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #18181B;
+    overflow: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 15vh;
+    border-bottom: 2px solid #EF7B00;
+    display: inline-block;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #EFA600;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+nav ul li a:focus {
+    color: #EED602;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #EF7B00;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+.container {
+    max-width: 100vw;
+    min-height: 85vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+.container::after {
+    content: '';
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #EED602;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+.container:hover::after {
+    width: 600px;
+    height: 600px;
+    bottom: -200px;
+    right: -200px;
+}
+
+.container h1 {
+    width: 500px;
+    height: 130px;
+    font-family: 'Jura', sans-serif;
+    font-size: 64px;
+    color: #EED602;
+}
+
+.container button {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #EED602;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFA600;
+    font-size: 24px;
+    font-family: 'Spinnaker', sans-serif;
+    cursor: pointer;
+    background: none;
+}
+
+.container button::before {
+    content: '';
+    width: 200px;
+    height: 100px;
+    border: 1px solid #EBE70B;
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    position: absolute;
+    animation: rotate1 1s ease-in-out infinite;
+}
+
+@keyframes rotate1 {
+    0% {transform: rotate(-15deg);}
+    40% {transform: rotate(0deg);}
+    60% {transform: rotate(15deg);}
+    100% {transform: rotate(-15deg);}
+}
+
+.container button::after {
+    content: '';
+    width: 200px;
+    height: 100px;
+    border: 1px solid #EEEB43;
+    border-radius: 50%;
+    transform: rotate(15deg);
+    position: absolute;
+    animation: rotate2 1s ease-in-out infinite;
+}
+
+@keyframes rotate2 {
+    0% {transform: rotate(15deg);}
+    40% {transform: rotate(0deg);}
+    60% {transform: rotate(-15deg);}
+    100% {transform: rotate(15deg);}
+}
+
+.container button:hover {
+    color: #EEEB43;
+}
+
+.container button:focus {
+    outline-style: none;
+}
+
+.container .bottomText h2 {
+    color: #EFA600;
+    font-size: 36px;
+    font-family: 'Jura', sans-serif;
+    margin-bottom: 10px;
+}
+
+.container .bottomText h3 {
+    color: #F2F069;
+    font-size: 24px;
+    font-family: 'Spinnaker', sans-serif;
+    width: 400px;
+}
+
+.contact {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    visibility: hidden;
+}
+
+.contact h2 {
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.contact a {
+    font-size: 40px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.contact a:hover {
+    color: #EFA600;
+}
+
+.container:hover .contact {
+    visibility: visible;
+}
+
+@media (max-width: 400px) {
+    nav {
+        height: 35vh;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .container h1 {
+        max-width: 300px;
+        font-size: 48px;
+    }
+
+    .container::after {
+        content: '';
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: #EED602;
+        position: absolute;
+        bottom: -100px;
+        right: 0px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+    }
+    
+    .container:hover::after {
+        width: 120px;
+        height: 120px;
+        bottom: -100px;
+        right: 0px;
+    }
+
+    .container .bottomText h3 {
+        width: 200px;
+    }
+
+    .contact {
+        width: 90px;
+        height: 20px;
+        position: absolute;
+        bottom: 0px;
+        right: 5px;
+        z-index: 100;
+        visibility: visible;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    .contact a {
+        font-size: 15px;
+    }
+}
