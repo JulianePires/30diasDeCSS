@@ -594,3 +594,5 @@ Gostou da ideia?
 * *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
 * *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
 * *[Media Query](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries)*
+* *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
