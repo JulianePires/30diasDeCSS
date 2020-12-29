@@ -54,6 +54,8 @@ Gostou da ideia?
 * [Dia 26 - Cards Animais](#id26)
 * [Dia 27 - Cup Set](#id27)
 * [Dia 28 - Material Icons](#id28)
+* [Dia 29 - Landing Page](#id29)
+* [Dia 30 - Typing Text](#id30)
 
 ##  Desafio dia 01 - Efeitos Hover em cartões empilhados <a name="id01"></a>
 ![Dia 01](./assets/dia1.gif)
@@ -596,3 +598,21 @@ Gostou da ideia?
 * *[Media Query](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries)*
 * *[Pseudo-Elementos](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elementos)*
 * *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+
+## Desafio dia 30 - Typing Text <a name="id30"></a>
+![Dia 30](./assets/dia30.gif)
+
+
+[Meu codigo](https://github.com/JulianePires/30diasDeCSS/tree/main/desafios/dia30)
+
+[Tutorial Medium]() *Ainda não disponivel*
+
+[Post LinkedIn](https://www.linkedin.com/posts/juliane-pires_30diasdecss-css-challenge-activity-6749775015736094720-xrNk) 
+
+##### O que eu aprendi
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Animation](https://www.w3schools.com/css/css3_animations.asp)*
+* *[Keyframe](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)*
+* *[::selection](https://www.w3schools.com/cssref/sel_selection.asp)*
+* *[white-space](https://developer.mozilla.org/pt-BR/docs/Web/CSS/white-space)*
+* *[:nth-child()](https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-child)*

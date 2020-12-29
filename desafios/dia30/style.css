@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #010402;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Turret Road', cursive;
+    margin: 10px;
+    font-size: 64px;
+    color: lime;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100vw;
+    animation: type 4s steps(60, end);
+}
+
+p:nth-child(2) {
+    animation: type2 8s steps(60, end);
+}
+
+p:nth-child(3) {
+    animation: type2 16s steps(60, end);
+}
+
+span{
+    animation: blink 1s infinite;
+    font-size: 70px;
+    color: lime;
+}
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+
+@keyframes type2{
+    0%{ width: 0; }
+    50%{ width: 0; }
+    100%{ width: 100; } 
+} 
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+::selection{
+    background: white;
+}
